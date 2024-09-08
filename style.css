@@ -1,21 +1,21 @@
 p {
 	color: purple;
 }
+/*Г.№1*/
 h1 {
     text-align: right;
 	color: green;
+    font-size: 50px;
 }
+/*Г.№1*/
 h2 {
     text-align: center;
     width: 300px;
+    font-size: 40px;
 	color: blue;
 }
 h3 {
 	color: red;
-}
-p {
-	text-align: justify;
-	width: 300px;
 }
 th {
 	text-align: left;
@@ -26,4 +26,13 @@ td {
 
 table {
 	width: 500px;
+}
+/*Г. №1*/
+p {
+    font: italic 30px/45px Arial;
+    text-align: justify;
+    /*900 вместоо 300, так как иначе текст еле читаемый*/
+	width: 900px;
+    text-indent: 50px;
+    text-decoration: overline;
 }
