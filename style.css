@@ -1,13 +1,11 @@
 p {
 	color: purple;
 }
-/*Г.№1*/
 h1 {
     text-align: right;
 	color: green;
     font-size: 50px;
 }
-/*Г.№1*/
 h2 {
     text-align: center;
     width: 300px;
@@ -27,7 +25,6 @@ td {
 table {
 	width: 500px;
 }
-/*Г. №1*/
 p {
     font: italic 30px/45px Arial;
     text-align: justify;
