@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors Example</title>
+    <style>
+        /* №1: Все элементы с атрибутом title */
+        [title] {
+            border: 1px solid red; /* Пример стиля для выделения */
+        }
+
+        /* №2: Все абзацы с атрибутом title */
+        p[title] {
+            border: 1px solid blue; /* Пример стиля для выделения */
+        }
+
+        /* №3: Все абзацы с атрибутом title, который равен 'hello' */
+        p[title="hello"] {
+            border: 1px solid green; /* Пример стиля для выделения */
+        }
+
+        /* №4: Все ссылки с атрибутом href, значение которого начинается на 'http://' */
+        a[href^="http://"] {
+            color: red; /* Пример стиля для выделения */
+        }
+
+        /* №5: Все ссылки с атрибутом href, значение которого заканчивается на '.html' */
+        a[href$=".html"] {
+            color: blue; /* Пример стиля для выделения */
+        }
+
+        /* №6: Все абзацы с атрибутом title, в значении которого есть слово 'hello' */
+        p[title*="hello"] {
+            border: 1px solid purple; /* Пример стиля для выделения */
+        }
+
+        /* №7: Все абзацы с классом, который начинается на 'top-' */
+        p[class^="top-"] {
+            border: 1px solid orange; /* Пример стиля для выделения */
+        }
+    </style>
+</head>
+<body>
+    <!-- Примеры HTML для проверки селекторов -->
+
+    <!-- №1: Все элементы с атрибутом title -->
+    <div title="example">Element with title</div>
+    <span title="another">Span with title</span>
+
+    <!-- №2: Все абзацы с атрибутом title -->
+    <p title="example">Paragraph with title</p>
+    <p title="hello">Another paragraph with title</p>
+
+    <!-- №3: Все абзацы с атрибутом title, который равен 'hello' -->
+    <p title="hello">This paragraph's title is exactly 'hello'</p>
+    <p title="nothello">This paragraph's title is not 'hello'</p>
+
+    <!-- №4: Все ссылки с атрибутом href, значение которого начинается на 'http://' -->
+    <a href="http://example.com">Link to example.com</a>
+    <a href="https://anotherexample.com">Link to anotherexample.com</a>
+
+    <!-- №5: Все ссылки с атрибутом href, значение которого заканчивается на '.html' -->
+    <a href="page.html">Page link</a>
+    <a href="document.pdf">Document link</a>
+
+    <!-- №6: Все абзацы с атрибутом title, в значении которого есть слово 'hello' -->
+    <p title="say hello">This contains 'hello'</p>
+    <p title="goodbye">This does not contain 'hello'</p>
+
+    <!-- №7: Все абзацы с классом, который начинается на 'top-' -->
+    <p class="top-class">Top class paragraph</p>
+    <p class="top-second">Another top class paragraph</p>
+    <p class="other-class">Other class paragraph</p>
+</body>
+</html>
