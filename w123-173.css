@@ -1,0 +1,230 @@
+#parent {
+	width: 300px;
+	border: 1px solid rgb(51, 0, 255);
+    border-style: dotted;
+}
+#child {
+	width: 200px;
+	border: 1px solid rgb(0, 255, 17);
+    border-style: dotted;
+    margin: 30px;
+}
+#child1 {
+	height: 100px;
+	border: 1px solid rgb(255, 0, 0);
+	margin: 30px;
+}
+#parent2 {
+	width: 300px;
+    height: 300px;
+	border: 1px solid red;
+}
+#child2 {
+	margin-top:    40px; /* сверху */
+	margin-right:  150px; /* справа */
+	margin-bottom: 30px; /* снизу */
+	margin-left:   150px; /* слева */
+	width: 100px;
+	height: 100px;
+    
+	border: 1px solid green;
+}
+#parent3 {
+	width: 250px;
+    height: 200px;
+	border: 1px solid red;
+}
+#child3 {
+	margin-top:    40px; /* сверху */
+	margin-right:  20px; /* справа */
+	margin-bottom: 30px; /* снизу */
+	margin-left:   20px; /* слева */
+	width: 200px;
+	height: 100px;
+    
+	border: 1px solid green;
+}
+#parent4 {
+	width: 200px;
+    height: 150px;
+	border: 1px solid red;
+}
+#child4 {
+	margin-top:    30px; /* сверху */
+	margin-right:  50px; /* справа */
+	margin-bottom: 30px; /* снизу */
+	margin-left:   70px; /* слева */
+	width: 50px;
+	height: 100px;
+    
+	border: 1px solid green;
+}
+#elem {
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+    padding: 60px;
+}
+#elem1 {
+	width: 400px;
+	border: 1px solid rgb(0, 255, 55);
+	text-align: justify;
+    padding: 20px;
+}
+#elem2 {
+	width: 200px;
+	border: 1px solid red;
+	text-align: justify;
+    padding: 20px;
+}
+#elem3 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	margin-bottom: 20px;
+}
+
+#elem4 {
+	width: 100px;
+	height: 100px;
+	background: #f1f1f1;
+	padding: 25px; /* задаем отступы */
+	border: 10px solid green;  /* задаем границу */
+	box-sizing: border-box;  /* убираем расширение */
+}
+span {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+	margin-bottom: 20px;
+}
+#n {
+	display: inline;
+	width: 100px;
+	height: 100px;
+	border: 1px solid red;
+}
+.parent5 {
+	border: 1px solid red;
+	height: 400px;
+	width: 700px;
+}
+
+.child5 {
+	height: 100px;
+	width: 100px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+.child6 {
+	height: 100px;
+	width: 200px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+.child7 {
+	height: 100px;
+	width: 300px;
+	border: 1px solid green;
+	margin: 10px auto;
+}
+.parent6 {
+	border: 1px solid red;
+	text-align: center;
+	height: 50px;
+	width: 300px;
+}
+.parent7 {
+	text-align: right;
+	padding: 10px 0;
+	border: 1px solid red;
+}
+.parent8 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.child8 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block; 
+    margin: 5px; 
+}
+.parent9 {
+    padding: 10px 20px 10px 0;
+    border: 1px solid red;
+    text-align: right;
+}
+
+.child9 {
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+    margin-right: 10px;
+}
+.parent10 {
+    padding: 10px 0;
+    border: 1px solid red;
+    text-align: right;
+}
+
+.child10 {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid green;
+    display: inline-block;
+    text-align: center;
+}
+.parent11 {
+	display: flex; /* потомки будут флекс элементами */
+	width: 700px;
+	height: 300px;
+	border: 1px solid red;
+}
+.child11 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent12 {
+	display: flex;
+	width: 400px;
+	border: 1px solid red;
+}
+.child12 {
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent13	{
+	display: inline-flex;
+	border: 1px solid red;
+}
+.child13 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent14	{
+	display: inline-flex;
+	padding: 10px;
+	border: 1px solid red;
+}
+.child14 {
+	width: 100px;
+	height: 50px;
+	border: 1px solid green;
+}
+.parent15	{
+	border: 1px solid red;
+	display: flex;
+	justify-content: space-around;
+}
+.child15 {
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid green;
+}
