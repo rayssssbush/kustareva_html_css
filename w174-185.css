@@ -230,3 +230,40 @@
 	left: 50%;
 	transform: translateX(-50%);
 }
+.container {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+.square.red {
+	background-color: #ff8080;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.square.blue {
+	background-color: #8080ff;
+	top: 40px;
+	left: 40px;
+	z-index: 3;
+}
+
+.square.green {
+	background-color: #80ff80;
+	top: 80px;
+	left: 80px;
+	z-index: 2;
+}
+.container {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
