@@ -1,0 +1,13 @@
+.parent	{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 1000px;
+	height: 500px;
+	border: 1px solid red;
+    margin: auto;
+}
+.child {
+	width: 150px;
+	height: 80px;
+	border: 1px solid green;
+}
