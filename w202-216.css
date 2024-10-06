@@ -1,17 +1,16 @@
 .container {
-	position: relative;
 	display: flex;
-	justify-content: space-between; /* Элементы равномерно распределены */
-	align-items: flex-end; /* Прижимаем элементы к нижнему краю */
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: flex-start;
 	width: 1000px;
 	height: 500px;
-	border: 1px solid red;
+	border: 1px solid red; 
 	margin: auto;
-	padding: 10px;
 }
 .child {
-	width: 150px;
-	height: 100px;
+	width: 100px; 
+	height: 50px;
 	border: 1px solid green;
 	display: flex;
 	justify-content: center;
