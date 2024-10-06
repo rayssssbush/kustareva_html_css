@@ -1,8 +1,8 @@
 .container {
 	position: relative;
 	display: flex;
-	justify-content: space-between; /* Элементы равномерно распределены */
-	align-items: flex-end; /* Прижимаем элементы к нижнему краю */
+	justify-content: space-between; 
+	align-items: flex-end;
 	width: 1000px;
 	height: 500px;
 	border: 1px solid red;
