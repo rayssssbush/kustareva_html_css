@@ -1,20 +1,20 @@
-.parent {
+.container {
+	position: relative;
 	display: flex;
-	flex-direction: row;
-	align-items: stretch;
+	justify-content: space-between; /* Элементы равномерно распределены */
+	align-items: flex-end; /* Прижимаем элементы к нижнему краю */
 	width: 1000px;
 	height: 500px;
 	border: 1px solid red;
-	margin: auto; /* Center the container horizontally */
+	margin: auto;
+	padding: 10px;
 }
 .child {
-	flex: 1; /* Ensures all children have equal width */
-	border-left: 1px solid green;
+	width: 150px;
+	height: 100px;
+	border: 1px solid green;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	font-size: 20px;
-}
-.child:first-child {
-	border-left: none; /* Remove left border for the first child */
 }
