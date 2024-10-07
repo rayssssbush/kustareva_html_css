@@ -1,10 +1,11 @@
 #parent {
 	display: grid;
-	grid-template-columns: 100px 150px 200px; /* Различные размеры столбцов */
+	grid-template-columns: 1fr 1fr 2fr;
 	border: 2px solid #696989;
 	padding: 10px;
-	width: 480px; /* Ширина контейнера под 100px + 150px + 200px + паддинги */
+	width: 600px; 
 }
+
 #parent > div {
 	padding: 10px;
 	border: 1px solid #696989;
