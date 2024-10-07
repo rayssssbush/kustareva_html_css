@@ -1,6 +1,6 @@
 #parent {
 	display: grid;
-	grid-template-columns: 20% 1fr 1fr; 
+	grid-template-columns: 100px 20% repeat(3, 1fr); 
 	border: 2px solid #696989;
 	padding: 10px;
 	width: 100%; 
@@ -9,4 +9,8 @@
 #parent > div {
 	padding: 10px;
 	border: 1px solid #696989;
+}
+
+#parent {
+	grid-template-columns: 100px 20% 1fr 2fr 4fr; 
 }
